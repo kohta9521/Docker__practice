@@ -1,6 +1,6 @@
 version: '3'
 services:
-tutorial:
-image: docker/getting-started
-ports:
--'80:80'
+  tutorial:
+    image: docker/getting-started
+    ports:
+      - '80:80'
